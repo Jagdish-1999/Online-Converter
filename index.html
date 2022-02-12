@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="root">
+        <div class="container">
+
+            <div class="heading">
+                <h1>Online Converter</h1>
+            </div>
+
+            <div class="convert-from-container">
+
+                <div class="from-selector-div" id="from-div">
+                    <select name="from" id="from-selector">
+                        <option id="from-dec" value="Decimal">Decimal</option>
+                        <option id="from-bin" value="Binary">Binary</option>
+                        <option id="from-oct" value="Octal">Octal</option>
+                        <option id="from-hex" value="Hexadecimal">Hexadecimal</option>
+                    </select>
+                </div>
+
+                <div class="input-div">
+                    <input type="text" placeholder="Enter Number Here" id="input-text">
+                </div>
+            </div>
+
+
+            <div class="buttons">
+                <button class="clear-btn">clear</button>
+                <button class="swap-btn">swap</button>
+                <button class="convert-btn">convert</button>
+            </div>
+
+
+            <div class="convert-to-container">
+
+                <div class="to-selector-div" id="to-div">
+                    <select name="to" id="to-selector">
+                        <option id="to-dec" value="Decimal">Decimal</option>
+                        <option id="to-bin" value="Binary" selected>Binary</option>
+                        <option id="to-oct" value="Octal">Octal</option>
+                        <option id="to-hex" value="Hexadecimal">Hexadecimal</option>
+                    </select>
+                </div>
+
+                <div class="input-div">
+                    <input type="text" id="output-text">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
